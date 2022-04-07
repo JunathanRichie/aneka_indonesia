@@ -11,7 +11,7 @@ a {
   text-decoration: none;
   color: black;
 }
-body .navbar {
+.navbar {
   position: fixed;
   height: 50px;
   background-color: #bffff0;
@@ -22,10 +22,11 @@ body .navbar {
 }
 .logo {
   float: left;
+
 }
 .link {
   float: right;
-  letter-spacing: 5px;
+  letter-spacing: 2px;
 }
 .pertama {
   margin-top: 50px;
@@ -258,5 +259,11 @@ footer p {
   }
   .navbar{
     height: 70px;
+  }
+  .pertama{
+    margin-top: 70px;
+  }  
+  section h1{
+    padding-top: 70px;
   }
 }
