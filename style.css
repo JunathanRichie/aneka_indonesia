@@ -11,7 +11,7 @@ a {
   text-decoration: none;
   color: black;
 }
-.navbar {
+body .navbar {
   position: fixed;
   height: 50px;
   background-color: #bffff0;
@@ -255,5 +255,8 @@ footer p {
   .empat .box,
   .tiga .tari {
     width: 90%;
+  }
+  .navbar{
+    height: 70px;
   }
 }
