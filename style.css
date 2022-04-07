@@ -1,0 +1,259 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;1,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Lora", serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.navbar {
+  position: fixed;
+  height: 50px;
+  background-color: #bffff0;
+  right: 0;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+.logo {
+  float: left;
+}
+.link {
+  float: right;
+  letter-spacing: 5px;
+}
+.pertama {
+  margin-top: 50px;
+  width: 100%;
+  height: 450px;
+  background-image: url(https://farm8.staticflickr.com/7665/18119448661_12d219087c_b.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pertama h1 {
+  color: white;
+  letter-spacing: 5px;
+  font-size: 82px;
+  filter: drop-shadow(5px 5px black);
+}
+.kedua {
+  background-color: #ffe4c0;
+}
+section h1 {
+  text-align: center;
+  padding-top: 50px;
+  text-shadow: 1px 2px #eee;
+}
+.box h1 {
+  padding: 0;
+}
+p {
+  text-align: justify;
+}
+.kedua p, .tiga p, .empat p, .lima p {
+  padding: 0 20px;
+  margin-top: 10px;
+}
+.hid-box p{
+  padding: 0;
+  margin: 0;
+}
+/* Flip card */
+.card-c {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.box {
+  margin: 20px auto;
+  height: 300px;
+  width: 30%;
+  overflow: hidden;
+  border: 1px solid black;
+  background-size: cover;
+  background-position: center;
+  box-sizing: border-box;
+  padding: 5px;
+}
+.kedua .box:nth-child(1) {
+  background-image: url(https://statik.tempo.co/data/2019/05/21/id_843378/843378_720.jpg);
+}
+.kedua .box:nth-child(2) {
+  background-image: url(https://pict-c.sindonews.net/dyn/620/pena/news/2021/10/02/768/557306/5-misteri-candi-borobudur-yang-belum-terungkap-hingga-kini-vzq.jpg);
+}
+.kedua .box:nth-child(3) {
+  background-image: url(https://asset.kompas.com/crops/28S0TkvG7koDd1XpB5m9t-703Ww=/0x0:780x520/780x390/data/photo/2021/03/21/605753630590a.jpg);
+}
+.kedua .box:nth-child(4) {
+  background-image: url(https://blog.bookingtogo.com/wp-content/uploads/2020/12/pura-ulun-danu-bratan-bali-bedugul-scaled.jpg);
+}
+.kedua .box:nth-child(5) {
+  background-image: url(https://mundomaya.travel/wp-content/webp-express/webp-images/uploads/2021/07/Tempat-Wisata-di-Labuan-Bajo.jpeg.webp);
+}
+.kedua .box:nth-child(6) {
+  background-image: url(https://4.bp.blogspot.com/-q1JoHNJm5zk/XIdPogawwwI/AAAAAAAAGLM/w15R_SGNjzcxDk2PSjjazZlcVFC-jUctQCLcBGAs/s1600/pulau-di-danau-toba-1.jpg);
+}
+.kedua .box:nth-child(7) {
+  background-image: url(https://ecs7.tokopedia.net/blog-tokopedia-com/uploads/2020/01/ikan-laut-1.jpg);
+}
+.kedua .box:nth-child(8) {
+  background-image: url(https://blog.reservasi.com/wp-content/uploads/2016/06/tempat-wisata-di-tana-toraja-1.jpg);
+}
+.kedua .box:nth-child(9) {
+  background-image: url(http://assets.kompasiana.com/items/album/2019/08/24/img-1964-2m-jpg-5d602be70d8230422f121b62.jpg);
+}
+.hid-box {
+  top: 100%;
+  position: relative;
+  transition: all 0.3s ease-out;
+  height: 100%;
+}
+
+.box:hover > .hid-box {
+  top: 0;
+}
+
+.box p,
+.box h1 {
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.tiga {
+  background-color: #ffbbbb;
+}
+
+.tari,
+.musik {
+  text-align: center;
+}
+.c-tiga,
+.c-empat,
+.c-lima {
+  display: flex;
+  flex-wrap: wrap;
+}
+.tiga .tari {
+  background-size: cover;
+  background-position: center;
+  margin: 20px auto;
+  height: 300px;
+  width: 30%;
+  display: flex;
+  align-items: flex-end;
+  flex-wrap: wrap;
+}
+.lima .musik {
+  width: 23%;
+  background-size: cover;
+  background-position: center;
+  margin: 20px auto;
+  height: 300px;
+  align-items: flex-end;
+  flex-wrap: wrap;
+}
+.tiga .tari h1,
+.lima .musik h1 {
+  padding: 0;
+  background-color: rgba(255, 255, 255, 0.7);
+  margin: 0;
+  width: 100%;
+}
+.tiga .tari:nth-child(1) {
+  background-image: url(https://img.okezone.com/content/2021/12/19/406/2519284/mengenal-sejarah-tari-kecak-bali-yang-mendunia-dan-filosofi-di-baliknya-d2XgNNZpj2.JPG);
+}
+.tiga .tari:nth-child(2) {
+  background-image: url(https://cdnwpedutorenews.gramedia.net/wp-content/uploads/2021/09/29212602/tari-jaipong.jpg);
+}
+.tiga .tari:nth-child(3) {
+  background-image: url(https://restuemak.com/wp-content/uploads/2020/11/www.soloblitz.coid_.jpg);
+}
+.tiga .tari:nth-child(4) {
+  background-image: url(https://akumaubelajar.com/wp-content/uploads/2020/02/tari-kipas-dan-propertinya.jpg);
+}
+.tiga .tari:nth-child(5) {
+  background-image: url(https://mundomaya.travel/wp-content/webp-express/webp-images/uploads/2021/07/tari-piring.jpg.webp);
+}
+.tiga .tari:nth-child(6) {
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Tor-Tor_Pose.jpg/300px-Tor-Tor_Pose.jpg);
+}
+.tiga .tari:nth-child(7) {
+  background-image: url(https://womensobsession.com/uploads/post_article/20190819150605-a712c.jpg);
+}
+.tiga .tari:nth-child(8) {
+  background-image: url(https://cdnwpedutorenews.gramedia.net/wp-content/uploads/2021/09/29214233/unnamed-4.jpg);
+}
+.tiga .tari:nth-child(9) {
+  background-image: url(https://haloedukasi.com/wp-content/uploads/2021/03/tari-selamat-datang.jpg);
+}
+.lima {
+  background-color: #ffe4c0;
+}
+
+.empat {
+  background-color: #ffbbbb;
+}
+.empat .box {
+  width: 40%;
+}
+.empat .box:nth-child(1) {
+  background-image: url(http://www.binus.tv/wp-content/uploads/2021/10/batik.jpg);
+}
+.empat .box:nth-child(2) {
+  background-image: url(https://upload.wikimedia.org/wikipedia/id/9/91/Reynan-tutup_lawang_sigotaka-palembang.jpg);
+}
+.empat .box:nth-child(3) {
+  background-image: url(https://d1vbn70lmn1nqe.cloudfront.net/prod/wp-content/uploads/2021/09/01092546/Pertolongan-Pertama-Cedera-saat-Pencak-Silat.jpg);
+}
+.empat .box:nth-child(4) {
+  background-image: url(https://awsimages.detik.net.id/community/media/visual/2021/03/04/keris-1.jpeg?w=700&q=90);
+}
+
+.lima .musik:nth-child(1) {
+  background-image: url(https://lagudaerah.id/wp-content/uploads/2019/04/kolintang.jpg);
+}
+.lima .musik:nth-child(2) {
+  background-image: url(https://www.suarasurabaya.net/wp-content/uploads/2018/07/kk207102_clip10.jpg);
+}
+.lima .musik:nth-child(3) {
+  background-image: url(https://s3.theasianparent.com/cdn-cgi/image/height=250/tap-assets-prod/wp-content/uploads/sites/24/2021/06/gamelan-jawa-lead.jpg);
+}
+.lima .musik:nth-child(4) {
+  background-image: url(https://media.suara.com/pictures/970x544/2015/01/19/o_19bvu6qpe1a3cf2qbj1ajm1s20a.jpg);
+}
+.lima .musik:nth-child(5) {
+  background-image: url(https://s3.theasianparent.com/tap-assets-prod/wp-content/uploads/sites/24/2021/12/alat-musik-tifa-feat-650x339.jpg);
+}
+.lima .musik:nth-child(6) {
+  background-image: url(https://infopublik.id/resources/album/bulan-september-2019/PEMAIN_INSTRUMEN_REBAB.JPG);
+}
+.lima .musik:nth-child(7) {
+  background-image: url(https://www.goodnewsfromindonesia.id/uploads/post/large-alat-musik-gambus-lampung-8bfc2feeca7bf349c60a399f8f3135fe.jpg);
+}
+
+.end p {
+  padding: 0 50px 50px 50px;
+}
+footer {
+  width: 100%;
+  height: 50px;
+  background-color: #bffff0;
+}
+footer p {
+  text-align: center;
+  margin-top: -10px;
+}
+@media only screen and (max-width: 992px) {
+  .box,
+  .lima .musik,
+  .empat .box,
+  .tiga .tari {
+    width: 90%;
+  }
+}
