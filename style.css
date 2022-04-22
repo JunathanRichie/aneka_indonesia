@@ -104,6 +104,9 @@ p {
 .kedua .box:nth-child(7) {
   background-image: url(https://ecs7.tokopedia.net/blog-tokopedia-com/uploads/2020/01/ikan-laut-1.jpg);
 }
+.kedua .box:nth-child(8){
+  background-image: url(https://www.pegipegi.com/travel/wp-content/uploads/2014/02/toraja.jpg)
+}
 .kedua .box:nth-child(9) {
   background-image: url(http://assets.kompasiana.com/items/album/2019/08/24/img-1964-2m-jpg-5d602be70d8230422f121b62.jpg);
 }
