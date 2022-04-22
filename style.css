@@ -263,6 +263,9 @@ footer p {
   .pertama{
     margin-top: 70px;
   }  
+  .pertama h1{
+    font-size: 70px;
+  }
   section h1{
     padding-top: 70px;
   }
